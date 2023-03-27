@@ -1,8 +1,8 @@
-# Docker image base on caddy image
+# docker image base on caddy image
 
-From caddy:2.0.0-alpine
+FROM caddy:2.0.0-alpine
 
-# Workdir
+# workdir
 WORKDIR /usr/share/caddy
 
 #copy all files
